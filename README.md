@@ -47,8 +47,9 @@ and produces a figure composed of three dumbbell plots, each
 representing a comparison between the following years: 2019-2020,
 2020-2021, 2021-2022
 
-Example Output:
-![National-level delta in RI](04_output/ci_national_combined_print_160x200mm.jpeg){ width=25% }
+Example Output: </br></br> <center>
+<img src="04_output/ci_national_combined_print_160x200mm.jpeg" width="400" height="550"/>
+</center>
 
 ### 02_district_timeseries_plot.R
 
@@ -57,5 +58,6 @@ matrix plot with a time series for each district, showing data from 2019
 to 2021. The plotting code was inspired by Cedric Scherer's blog
 [post](https://www.cedricscherer.com/2023/07/05/efficiency-and-consistency-automate-subset-graphics-with-ggplot2-and-purrr/).
 
-Example Output:
-![District-level RI time series](04_output/mr1_districts_combined_print_170x170mm_panels.jpeg){ width=25% }
+Example Output: </br> </br> <center>
+<img src="04_output/mr1_districts_combined_print_170x170mm_panels.jpeg" width="400" height="550"/>
+</center>
