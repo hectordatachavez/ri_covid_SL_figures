@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Routine Immunization Figures for Peer-Reviewed Publication
 
 ## Overview
@@ -12,7 +6,7 @@ This repository contains R code to generate figures for a peer-reviewed
 publication on the impact of the COVID-19 pandemic on routine
 immunization in Sierra Leona.
 
-## Data Description 
+## Data Description
 
 We used vaccination data from the District Health Information Systemn 2
 (DHIS2) in Sierra Leona. We focused on the following antigens: BCG,
@@ -35,9 +29,8 @@ README.md: This file provides an overview and instructions.
 
     -   `02_district_timeseries_plot.R`
 
-```{=html}
 <!-- -->
-```
+
 -   03_functions/: Contains custom R functions used in the scripts.
 
     -   `functions.R`
@@ -45,9 +38,9 @@ README.md: This file provides an overview and instructions.
 -   04_output/: Contains examples of the generated figures in jpeg
     format.
 
-## Scripts 
+## Scripts
 
-### 01_national_deltas_dumbbell_plots.R 
+### 01_national_deltas_dumbbell_plots.R
 
 This script processes routine immunization data at the national level
 and produces a figure composed of three dumbbell plots, each
@@ -55,8 +48,9 @@ representing a comparison between the following years: 2019-2020,
 2020-2021, 2021-2022
 
 Example Output:
+![National-level delta in RI](04_output/ci_national_combined_print_160x200mm.jpeg){ width=25% }
 
-### 02_district_timeseries_plot.R 
+### 02_district_timeseries_plot.R
 
 This script processes district-level immunization data and produces a
 matrix plot with a time series for each district, showing data from 2019
@@ -64,3 +58,4 @@ to 2021. The plotting code was inspired by Cedric Scherer's blog
 [post](https://www.cedricscherer.com/2023/07/05/efficiency-and-consistency-automate-subset-graphics-with-ggplot2-and-purrr/).
 
 Example Output:
+![District-level RI time series](04_output/mr1_districts_combined_print_170x170mm_panels.jpeg){ width=25% }
