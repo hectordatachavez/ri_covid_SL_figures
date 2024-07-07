@@ -10,7 +10,7 @@ This repository contains R code to generate figures for a peer-reviewed publicat
 
 We used vaccination data from the District Health Information Systemn 2 (DHIS2) in Sierra Leona. We focused on the following antigens: BCG, Measles-Rubella 1 and 2, and Pentavalent 1 and 3. We compared annual coverage rates for these antigens across the years 2019, 2020, 2021, and 2022 at both national and district levels.
 
-The raw data on routine immunization in Sierra Leona cannot be shared. The datasets generated during the study will be available as supplementary files.
+The raw data on routine immunization in Sierra Leona cannot be shared. The datasets generated during the study are available as supplementary files.
 
 ## Repository Structure
 
